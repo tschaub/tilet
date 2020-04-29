@@ -2,7 +2,24 @@
 
 This is meant to serve as an example of how little code is required to put together a map client based on a well structured tiles representing geographic data.
 
-The client works with services that implement the evolving [OGC API - Tiles](https://github.com/opengeospatial/OGC-API-Tiles) specification.  In its initial form, the client is < 200 lines of code and has zero dependencies.  It doesn't do much, but it is capable of parsing the metadata docs and rendering tiles based on any configured tile matrix (in any coordinate reference system, with non-uniform tile sizes, etc.).
+<p align="center">
+  <img width="843" height="604" src="./tilet.png">
+</p>
+
+```html
+    <div id="map"></div>
+    <script
+      src="./tilet.js"
+      data-map="map"
+      data-tiles="./examples/countries.json"
+      data-tile-matrix-set="WebMercatorQuad"
+      data-values="styleId=polygon"
+      data-center="0, 0"
+      data-zoom="2"
+    ></script>
+```
+
+The client works with services that implement the evolving [OGC API - Tiles](https://github.com/opengeospatial/OGC-API-Tiles) specification.  In its initial form, the client is < 200 [lines of code](./tilet.js) and has zero dependencies.  It doesn't do much, but it is capable of parsing the metadata docs and rendering tiles based on any configured tile matrix (in any coordinate reference system, with non-uniform tile sizes, etc.).
 
 Two things about that draft spec makes the implementation of a lightweight client unnecessarily hard.
 
@@ -28,4 +45,4 @@ The solution to the first issue is to specify that tile sets advertise `resoluti
 
 The solution to the second issue is to specify that tile sets advertise separate `top` and `left` properties representing the origin (instead of one `topLeftCorner` where the order of the values must be retrieved from elsewhere).
 
-I've taken the liberty of modifying the metadata documents for the example tile set used here so that they include `resolution` instead of `scaleDenominator` and `top` plus `left` instead of `topLeftCorner`.  With this change, a lightweight tile client is easy to put together before bed.
+I've taken the liberty of modifying the metadata documents for the [example](./examples) tile set used here so that they include `resolution` instead of `scaleDenominator` and `top` plus `left` instead of `topLeftCorner`.  With this change, a lightweight tile client is easy to put together before bed.
