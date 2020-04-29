@@ -26,7 +26,7 @@ Two things about that draft spec makes the implementation of a lightweight clien
 1. The spec requires that each level in a tile matrix set is described by a `scaleDenominator`.  What a client needs is the "resolution" (or map units per pixel) for each level.  The formula for calculating the resolution looks something like this:
 
     ```
-    resolution = scaleDenominator * 0.00028 * metersPerUnit
+    resolution = scaleDenominator * 0.00028 / metersPerUnit
     ```
 
    While this looks straightfoward enough, it has two awkward parts:
