@@ -45,4 +45,30 @@ The solution to the first issue is to specify that tile sets advertise `resoluti
 
 The solution to the second issue is to specify that tile sets advertise separate `top` and `left` properties representing the origin (instead of one `topLeftCorner` where the order of the values must be retrieved from elsewhere).
 
-I've taken the liberty of modifying the metadata documents for the [example](./examples) tile set used here so that they include `resolution` instead of `scaleDenominator` and `top` plus `left` instead of `topLeftCorner`.  With this change, a lightweight tile client is easy to put together before bed.
+I've taken the liberty of modifying the metadata documents for the [example](./examples) tile set used here so that they include `resolution` instead of `scaleDenominator` and `top` plus `left` instead of `topLeftCorner`.
+
+Here is an example of what that change looks like for one level in a `WorldCRS84Quad` tile matrix set:
+
+```diff
+diff --git a/examples/WorldCRS84Quad.json b/examples/WorldCRS84Quad.json
+index cd02619..0213968 100644
+--- a/examples/WorldCRS84Quad.json
++++ b/examples/WorldCRS84Quad.json
+@@ -13,11 +13,9 @@
+   "tileMatrix": [
+     {
+       "identifier": "0",
+-      "scaleDenominator": 279541132.0143589,
+-      "topLeftCorner": [
+-        90,
+-        -180
+-      ],
++      "resolution": 0.703125000000000,
++      "top": 90.0,
++      "left": -180.0,
+       "tileWidth": 256,
+       "tileHeight": 256,
+       "matrixWidth": 2,
+```
+
+Minor difference, but it means a zero-dependency, lightweight client is possible.
