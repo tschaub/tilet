@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+      #map {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: beige;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script
+      src="./tilet.js"
+      data-map="map"
+      data-tiles="./examples/countries.json"
+      data-tile-matrix-set="WebMercatorQuad"
+      data-values="styleId=polygon"
+      data-center="0, 0"
+      data-zoom="2"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,1057 @@
+{
+  "id": "ne:countries50m",
+  "links": [
+    {
+      "href": "./examples/countries.json",
+      "rel": "self",
+      "type": "application/json",
+      "title": "This document"
+    },
+    {
+      "href": "https://vtp2.geo-solutions.it/geoserver/ogc/tiles/collections/ne%3Acountries50m/map/{styleId}/tiles/{tileMatrixSetId}/{tileMatrix}/{tileRow}/{tileCol}?f=image%2Fpng",
+      "rel": "item",
+      "type": "image/png",
+      "title": "ne:countries50m tiles as image/png",
+      "templated": true
+    }
+  ],
+  "tileMatrixSetLinks": [
+    {
+      "tileMatrixSet": "WebMercatorQuad",
+      "tileMatrixSetURI": "./examples/WebMercatorQuad.json",
+      "tileMatrixSetLimits": [
+        {
+          "tileMatrix": "0",
+          "minTileRow": 0,
+          "maxTileRow": 0,
+          "minTileCol": 0,
+          "maxTileCol": 0
+        },
+        {
+          "tileMatrix": "1",
+          "minTileRow": 0,
+          "maxTileRow": 1,
+          "minTileCol": 0,
+          "maxTileCol": 1
+        },
+        {
+          "tileMatrix": "2",
+          "minTileRow": 0,
+          "maxTileRow": 3,
+          "minTileCol": 0,
+          "maxTileCol": 3
+        },
+        {
+          "tileMatrix": "3",
+          "minTileRow": 0,
+          "maxTileRow": 7,
+          "minTileCol": 0,
+          "maxTileCol": 7
+        },
+        {
+          "tileMatrix": "4",
+          "minTileRow": 0,
+          "maxTileRow": 15,
+          "minTileCol": 0,
+          "maxTileCol": 15
+        },
+        {
+          "tileMatrix": "5",
+          "minTileRow": 1,
+          "maxTileRow": 31,
+          "minTileCol": 0,
+          "maxTileCol": 31
+        },
+        {
+          "tileMatrix": "6",
+          "minTileRow": 2,
+          "maxTileRow": 63,
+          "minTileCol": 0,
+          "maxTileCol": 63
+        },
+        {
+          "tileMatrix": "7",
+          "minTileRow": 5,
+          "maxTileRow": 127,
+          "minTileCol": 0,
+          "maxTileCol": 127
+        },
+        {
+          "tileMatrix": "8",
+          "minTileRow": 10,
+          "maxTileRow": 255,
+          "minTileCol": 0,
+          "maxTileCol": 255
+        },
+        {
+          "tileMatrix": "9",
+          "minTileRow": 20,
+          "maxTileRow": 511,
+          "minTileCol": 0,
+          "maxTileCol": 511
+        },
+        {
+          "tileMatrix": "10",
+          "minTileRow": 41,
+          "maxTileRow": 1023,
+          "minTileCol": 0,
+          "maxTileCol": 1023
+        },
+        {
+          "tileMatrix": "11",
+          "minTileRow": 83,
+          "maxTileRow": 2047,
+          "minTileCol": 0,
+          "maxTileCol": 2047
+        },
+        {
+          "tileMatrix": "12",
+          "minTileRow": 167,
+          "maxTileRow": 4095,
+          "minTileCol": 0,
+          "maxTileCol": 4095
+        },
+        {
+          "tileMatrix": "13",
+          "minTileRow": 335,
+          "maxTileRow": 8191,
+          "minTileCol": 0,
+          "maxTileCol": 8191
+        },
+        {
+          "tileMatrix": "14",
+          "minTileRow": 671,
+          "maxTileRow": 16383,
+          "minTileCol": 0,
+          "maxTileCol": 16383
+        },
+        {
+          "tileMatrix": "15",
+          "minTileRow": 1343,
+          "maxTileRow": 32767,
+          "minTileCol": 0,
+          "maxTileCol": 32767
+        },
+        {
+          "tileMatrix": "16",
+          "minTileRow": 2687,
+          "maxTileRow": 65535,
+          "minTileCol": 0,
+          "maxTileCol": 65535
+        },
+        {
+          "tileMatrix": "17",
+          "minTileRow": 5374,
+          "maxTileRow": 131071,
+          "minTileCol": 0,
+          "maxTileCol": 131071
+        },
+        {
+          "tileMatrix": "18",
+          "minTileRow": 10748,
+          "maxTileRow": 262143,
+          "minTileCol": 0,
+          "maxTileCol": 262143
+        },
+        {
+          "tileMatrix": "19",
+          "minTileRow": 21496,
+          "maxTileRow": 524287,
+          "minTileCol": 0,
+          "maxTileCol": 524288
+        },
+        {
+          "tileMatrix": "20",
+          "minTileRow": 42992,
+          "maxTileRow": 1048575,
+          "minTileCol": 0,
+          "maxTileCol": 1048576
+        },
+        {
+          "tileMatrix": "21",
+          "minTileRow": 85985,
+          "maxTileRow": 2097151,
+          "minTileCol": 0,
+          "maxTileCol": 2097152
+        },
+        {
+          "tileMatrix": "22",
+          "minTileRow": 171971,
+          "maxTileRow": 4194303,
+          "minTileCol": 0,
+          "maxTileCol": 4194304
+        },
+        {
+          "tileMatrix": "23",
+          "minTileRow": 343943,
+          "maxTileRow": 8388607,
+          "minTileCol": 0,
+          "maxTileCol": 8388608
+        },
+        {
+          "tileMatrix": "24",
+          "minTileRow": 687886,
+          "maxTileRow": 16777215,
+          "minTileCol": 0,
+          "maxTileCol": 16777216
+        }
+      ]
+    },
+    {
+      "tileMatrixSet": "WorldCRS84Quad",
+      "tileMatrixSetURI": "./examples/WorldCRS84Quad.json",
+      "tileMatrixSetLimits": [
+        {
+          "tileMatrix": "0",
+          "minTileRow": 0,
+          "maxTileRow": 0,
+          "minTileCol": 0,
+          "maxTileCol": 1
+        },
+        {
+          "tileMatrix": "1",
+          "minTileRow": 0,
+          "maxTileRow": 1,
+          "minTileCol": 0,
+          "maxTileCol": 4
+        },
+        {
+          "tileMatrix": "2",
+          "minTileRow": 0,
+          "maxTileRow": 3,
+          "minTileCol": 0,
+          "maxTileCol": 7
+        },
+        {
+          "tileMatrix": "3",
+          "minTileRow": 0,
+          "maxTileRow": 7,
+          "minTileCol": 0,
+          "maxTileCol": 15
+        },
+        {
+          "tileMatrix": "4",
+          "minTileRow": 0,
+          "maxTileRow": 15,
+          "minTileCol": 0,
+          "maxTileCol": 31
+        },
+        {
+          "tileMatrix": "5",
+          "minTileRow": 1,
+          "maxTileRow": 31,
+          "minTileCol": 0,
+          "maxTileCol": 63
+        },
+        {
+          "tileMatrix": "6",
+          "minTileRow": 2,
+          "maxTileRow": 63,
+          "minTileCol": 0,
+          "maxTileCol": 128
+        },
+        {
+          "tileMatrix": "7",
+          "minTileRow": 4,
+          "maxTileRow": 127,
+          "minTileCol": 0,
+          "maxTileCol": 255
+        },
+        {
+          "tileMatrix": "8",
+          "minTileRow": 9,
+          "maxTileRow": 255,
+          "minTileCol": 0,
+          "maxTileCol": 512
+        },
+        {
+          "tileMatrix": "9",
+          "minTileRow": 18,
+          "maxTileRow": 511,
+          "minTileCol": 0,
+          "maxTileCol": 1023
+        },
+        {
+          "tileMatrix": "10",
+          "minTileRow": 36,
+          "maxTileRow": 1023,
+          "minTileCol": 0,
+          "maxTileCol": 2048
+        },
+        {
+          "tileMatrix": "11",
+          "minTileRow": 72,
+          "maxTileRow": 2047,
+          "minTileCol": 0,
+          "maxTileCol": 4095
+        },
+        {
+          "tileMatrix": "12",
+          "minTileRow": 145,
+          "maxTileRow": 4095,
+          "minTileCol": 0,
+          "maxTileCol": 8191
+        },
+        {
+          "tileMatrix": "13",
+          "minTileRow": 291,
+          "maxTileRow": 8191,
+          "minTileCol": 0,
+          "maxTileCol": 16383
+        },
+        {
+          "tileMatrix": "14",
+          "minTileRow": 582,
+          "maxTileRow": 16383,
+          "minTileCol": 0,
+          "maxTileCol": 32767
+        },
+        {
+          "tileMatrix": "15",
+          "minTileRow": 1165,
+          "maxTileRow": 32767,
+          "minTileCol": 0,
+          "maxTileCol": 65535
+        },
+        {
+          "tileMatrix": "16",
+          "minTileRow": 2330,
+          "maxTileRow": 65535,
+          "minTileCol": 0,
+          "maxTileCol": 131071
+        },
+        {
+          "tileMatrix": "17",
+          "minTileRow": 4660,
+          "maxTileRow": 131071,
+          "minTileCol": 0,
+          "maxTileCol": 262143
+        }
+      ]
+    },
+    {
+      "tileMatrixSet": "WorldMercatorWGS84Quad",
+      "tileMatrixSetURI": "https://vtp2.geo-solutions.it/geoserver/ogc/tiles/tileMatrixSets/WorldMercatorWGS84Quad",
+      "tileMatrixSetLimits": [
+        {
+          "tileMatrix": "0",
+          "minTileRow": 0,
+          "maxTileRow": 0,
+          "minTileCol": 0,
+          "maxTileCol": 0
+        },
+        {
+          "tileMatrix": "1",
+          "minTileRow": 0,
+          "maxTileRow": 1,
+          "minTileCol": 0,
+          "maxTileCol": 1
+        },
+        {
+          "tileMatrix": "2",
+          "minTileRow": 0,
+          "maxTileRow": 3,
+          "minTileCol": 0,
+          "maxTileCol": 3
+        },
+        {
+          "tileMatrix": "3",
+          "minTileRow": 0,
+          "maxTileRow": 7,
+          "minTileCol": 0,
+          "maxTileCol": 7
+        },
+        {
+          "tileMatrix": "4",
+          "minTileRow": 0,
+          "maxTileRow": 15,
+          "minTileCol": 0,
+          "maxTileCol": 15
+        },
+        {
+          "tileMatrix": "5",
+          "minTileRow": 1,
+          "maxTileRow": 31,
+          "minTileCol": 0,
+          "maxTileCol": 31
+        },
+        {
+          "tileMatrix": "6",
+          "minTileRow": 2,
+          "maxTileRow": 63,
+          "minTileCol": 0,
+          "maxTileCol": 63
+        },
+        {
+          "tileMatrix": "7",
+          "minTileRow": 5,
+          "maxTileRow": 127,
+          "minTileCol": 0,
+          "maxTileCol": 127
+        },
+        {
+          "tileMatrix": "8",
+          "minTileRow": 10,
+          "maxTileRow": 255,
+          "minTileCol": 0,
+          "maxTileCol": 255
+        },
+        {
+          "tileMatrix": "9",
+          "minTileRow": 21,
+          "maxTileRow": 511,
+          "minTileCol": 0,
+          "maxTileCol": 511
+        },
+        {
+          "tileMatrix": "10",
+          "minTileRow": 43,
+          "maxTileRow": 1023,
+          "minTileCol": 0,
+          "maxTileCol": 1023
+        },
+        {
+          "tileMatrix": "11",
+          "minTileRow": 86,
+          "maxTileRow": 2047,
+          "minTileCol": 0,
+          "maxTileCol": 2047
+        },
+        {
+          "tileMatrix": "12",
+          "minTileRow": 172,
+          "maxTileRow": 4095,
+          "minTileCol": 0,
+          "maxTileCol": 4095
+        },
+        {
+          "tileMatrix": "13",
+          "minTileRow": 344,
+          "maxTileRow": 8191,
+          "minTileCol": 0,
+          "maxTileCol": 8191
+        },
+        {
+          "tileMatrix": "14",
+          "minTileRow": 689,
+          "maxTileRow": 16383,
+          "minTileCol": 0,
+          "maxTileCol": 16383
+        },
+        {
+          "tileMatrix": "15",
+          "minTileRow": 1378,
+          "maxTileRow": 32767,
+          "minTileCol": 0,
+          "maxTileCol": 32767
+        },
+        {
+          "tileMatrix": "16",
+          "minTileRow": 2756,
+          "maxTileRow": 65535,
+          "minTileCol": 0,
+          "maxTileCol": 65535
+        },
+        {
+          "tileMatrix": "17",
+          "minTileRow": 5513,
+          "maxTileRow": 131071,
+          "minTileCol": 0,
+          "maxTileCol": 131071
+        },
+        {
+          "tileMatrix": "18",
+          "minTileRow": 11026,
+          "maxTileRow": 262143,
+          "minTileCol": 0,
+          "maxTileCol": 262143
+        },
+        {
+          "tileMatrix": "19",
+          "minTileRow": 22052,
+          "maxTileRow": 524287,
+          "minTileCol": 0,
+          "maxTileCol": 524287
+        },
+        {
+          "tileMatrix": "20",
+          "minTileRow": 44105,
+          "maxTileRow": 1048575,
+          "minTileCol": 0,
+          "maxTileCol": 1048575
+        },
+        {
+          "tileMatrix": "21",
+          "minTileRow": 88211,
+          "maxTileRow": 2097151,
+          "minTileCol": 0,
+          "maxTileCol": 2097151
+        },
+        {
+          "tileMatrix": "22",
+          "minTileRow": 176422,
+          "maxTileRow": 4194303,
+          "minTileCol": 0,
+          "maxTileCol": 4194303
+        },
+        {
+          "tileMatrix": "23",
+          "minTileRow": 352844,
+          "maxTileRow": 8388607,
+          "minTileCol": 0,
+          "maxTileCol": 8388607
+        },
+        {
+          "tileMatrix": "24",
+          "minTileRow": 705689,
+          "maxTileRow": 16777215,
+          "minTileCol": 0,
+          "maxTileCol": 16777215
+        }
+      ]
+    },
+    {
+      "tileMatrixSet": "EPSG:4326",
+      "tileMatrixSetURI": "https://vtp2.geo-solutions.it/geoserver/ogc/tiles/tileMatrixSets/EPSG%3A4326",
+      "tileMatrixSetLimits": [
+        {
+          "tileMatrix": "EPSG:4326:0",
+          "minTileRow": 0,
+          "maxTileRow": 0,
+          "minTileCol": 0,
+          "maxTileCol": 1
+        },
+        {
+          "tileMatrix": "EPSG:4326:1",
+          "minTileRow": 0,
+          "maxTileRow": 1,
+          "minTileCol": 0,
+          "maxTileCol": 3
+        },
+        {
+          "tileMatrix": "EPSG:4326:2",
+          "minTileRow": 0,
+          "maxTileRow": 3,
+          "minTileCol": 0,
+          "maxTileCol": 7
+        },
+        {
+          "tileMatrix": "EPSG:4326:3",
+          "minTileRow": 0,
+          "maxTileRow": 7,
+          "minTileCol": 0,
+          "maxTileCol": 15
+        },
+        {
+          "tileMatrix": "EPSG:4326:4",
+          "minTileRow": 0,
+          "maxTileRow": 15,
+          "minTileCol": 0,
+          "maxTileCol": 31
+        },
+        {
+          "tileMatrix": "EPSG:4326:5",
+          "minTileRow": 1,
+          "maxTileRow": 31,
+          "minTileCol": 0,
+          "maxTileCol": 63
+        },
+        {
+          "tileMatrix": "EPSG:4326:6",
+          "minTileRow": 2,
+          "maxTileRow": 63,
+          "minTileCol": 0,
+          "maxTileCol": 127
+        },
+        {
+          "tileMatrix": "EPSG:4326:7",
+          "minTileRow": 4,
+          "maxTileRow": 127,
+          "minTileCol": 0,
+          "maxTileCol": 255
+        },
+        {
+          "tileMatrix": "EPSG:4326:8",
+          "minTileRow": 9,
+          "maxTileRow": 255,
+          "minTileCol": 0,
+          "maxTileCol": 511
+        },
+        {
+          "tileMatrix": "EPSG:4326:9",
+          "minTileRow": 18,
+          "maxTileRow": 511,
+          "minTileCol": 0,
+          "maxTileCol": 1023
+        },
+        {
+          "tileMatrix": "EPSG:4326:10",
+          "minTileRow": 36,
+          "maxTileRow": 1023,
+          "minTileCol": 0,
+          "maxTileCol": 2047
+        },
+        {
+          "tileMatrix": "EPSG:4326:11",
+          "minTileRow": 72,
+          "maxTileRow": 2047,
+          "minTileCol": 0,
+          "maxTileCol": 4095
+        },
+        {
+          "tileMatrix": "EPSG:4326:12",
+          "minTileRow": 145,
+          "maxTileRow": 4095,
+          "minTileCol": 0,
+          "maxTileCol": 8191
+        },
+        {
+          "tileMatrix": "EPSG:4326:13",
+          "minTileRow": 291,
+          "maxTileRow": 8191,
+          "minTileCol": 0,
+          "maxTileCol": 16383
+        },
+        {
+          "tileMatrix": "EPSG:4326:14",
+          "minTileRow": 582,
+          "maxTileRow": 16383,
+          "minTileCol": 0,
+          "maxTileCol": 32767
+        },
+        {
+          "tileMatrix": "EPSG:4326:15",
+          "minTileRow": 1165,
+          "maxTileRow": 32767,
+          "minTileCol": 0,
+          "maxTileCol": 65535
+        },
+        {
+          "tileMatrix": "EPSG:4326:16",
+          "minTileRow": 2330,
+          "maxTileRow": 65535,
+          "minTileCol": 0,
+          "maxTileCol": 131071
+        },
+        {
+          "tileMatrix": "EPSG:4326:17",
+          "minTileRow": 4660,
+          "maxTileRow": 131071,
+          "minTileCol": 0,
+          "maxTileCol": 262143
+        },
+        {
+          "tileMatrix": "EPSG:4326:18",
+          "minTileRow": 9321,
+          "maxTileRow": 262142,
+          "minTileCol": 0,
+          "maxTileCol": 524287
+        },
+        {
+          "tileMatrix": "EPSG:4326:19",
+          "minTileRow": 18642,
+          "maxTileRow": 524284,
+          "minTileCol": 0,
+          "maxTileCol": 1048575
+        },
+        {
+          "tileMatrix": "EPSG:4326:20",
+          "minTileRow": 37284,
+          "maxTileRow": 1048569,
+          "minTileCol": 0,
+          "maxTileCol": 2097151
+        },
+        {
+          "tileMatrix": "EPSG:4326:21",
+          "minTileRow": 74569,
+          "maxTileRow": 2097139,
+          "minTileCol": 0,
+          "maxTileCol": 4194303
+        }
+      ]
+    },
+    {
+      "tileMatrixSet": "EPSG:4326_512",
+      "tileMatrixSetURI": "https://vtp2.geo-solutions.it/geoserver/ogc/tiles/tileMatrixSets/EPSG%3A4326_512",
+      "tileMatrixSetLimits": [
+        {
+          "tileMatrix": "EPSG:4326:0",
+          "minTileRow": 0,
+          "maxTileRow": 0,
+          "minTileCol": 0,
+          "maxTileCol": 0
+        },
+        {
+          "tileMatrix": "EPSG:4326:1",
+          "minTileRow": 0,
+          "maxTileRow": 0,
+          "minTileCol": 0,
+          "maxTileCol": 1
+        },
+        {
+          "tileMatrix": "EPSG:4326:2",
+          "minTileRow": 0,
+          "maxTileRow": 1,
+          "minTileCol": 0,
+          "maxTileCol": 3
+        },
+        {
+          "tileMatrix": "EPSG:4326:3",
+          "minTileRow": 0,
+          "maxTileRow": 3,
+          "minTileCol": 0,
+          "maxTileCol": 7
+        },
+        {
+          "tileMatrix": "EPSG:4326:4",
+          "minTileRow": 0,
+          "maxTileRow": 7,
+          "minTileCol": 0,
+          "maxTileCol": 15
+        },
+        {
+          "tileMatrix": "EPSG:4326:5",
+          "minTileRow": 0,
+          "maxTileRow": 15,
+          "minTileCol": 0,
+          "maxTileCol": 31
+        },
+        {
+          "tileMatrix": "EPSG:4326:6",
+          "minTileRow": 1,
+          "maxTileRow": 31,
+          "minTileCol": 0,
+          "maxTileCol": 63
+        },
+        {
+          "tileMatrix": "EPSG:4326:7",
+          "minTileRow": 2,
+          "maxTileRow": 63,
+          "minTileCol": 0,
+          "maxTileCol": 127
+        },
+        {
+          "tileMatrix": "EPSG:4326:8",
+          "minTileRow": 4,
+          "maxTileRow": 127,
+          "minTileCol": 0,
+          "maxTileCol": 255
+        },
+        {
+          "tileMatrix": "EPSG:4326:9",
+          "minTileRow": 9,
+          "maxTileRow": 255,
+          "minTileCol": 0,
+          "maxTileCol": 511
+        },
+        {
+          "tileMatrix": "EPSG:4326:10",
+          "minTileRow": 18,
+          "maxTileRow": 511,
+          "minTileCol": 0,
+          "maxTileCol": 1023
+        },
+        {
+          "tileMatrix": "EPSG:4326:11",
+          "minTileRow": 36,
+          "maxTileRow": 1023,
+          "minTileCol": 0,
+          "maxTileCol": 2048
+        },
+        {
+          "tileMatrix": "EPSG:4326:12",
+          "minTileRow": 72,
+          "maxTileRow": 2047,
+          "minTileCol": 0,
+          "maxTileCol": 4096
+        },
+        {
+          "tileMatrix": "EPSG:4326:13",
+          "minTileRow": 145,
+          "maxTileRow": 4095,
+          "minTileCol": 0,
+          "maxTileCol": 8191
+        },
+        {
+          "tileMatrix": "EPSG:4326:14",
+          "minTileRow": 291,
+          "maxTileRow": 8191,
+          "minTileCol": 0,
+          "maxTileCol": 16383
+        },
+        {
+          "tileMatrix": "EPSG:4326:15",
+          "minTileRow": 582,
+          "maxTileRow": 16383,
+          "minTileCol": 0,
+          "maxTileCol": 32768
+        },
+        {
+          "tileMatrix": "EPSG:4326:16",
+          "minTileRow": 1165,
+          "maxTileRow": 32767,
+          "minTileCol": 0,
+          "maxTileCol": 65535
+        },
+        {
+          "tileMatrix": "EPSG:4326:17",
+          "minTileRow": 2330,
+          "maxTileRow": 65535,
+          "minTileCol": 0,
+          "maxTileCol": 131071
+        },
+        {
+          "tileMatrix": "EPSG:4326:18",
+          "minTileRow": 4660,
+          "maxTileRow": 131071,
+          "minTileCol": 0,
+          "maxTileCol": 262143
+        },
+        {
+          "tileMatrix": "EPSG:4326:19",
+          "minTileRow": 9321,
+          "maxTileRow": 262142,
+          "minTileCol": 0,
+          "maxTileCol": 524288
+        },
+        {
+          "tileMatrix": "EPSG:4326:20",
+          "minTileRow": 18642,
+          "maxTileRow": 524284,
+          "minTileCol": 0,
+          "maxTileCol": 1048576
+        },
+        {
+          "tileMatrix": "EPSG:4326:21",
+          "minTileRow": 37284,
+          "maxTileRow": 1048569,
+          "minTileCol": 0,
+          "maxTileCol": 2097151
+        }
+      ]
+    },
+    {
+      "tileMatrixSet": "EPSG:900913",
+      "tileMatrixSetURI": "https://vtp2.geo-solutions.it/geoserver/ogc/tiles/tileMatrixSets/EPSG%3A900913",
+      "tileMatrixSetLimits": [
+        {
+          "tileMatrix": "EPSG:900913:0",
+          "minTileRow": 0,
+          "maxTileRow": 0,
+          "minTileCol": 0,
+          "maxTileCol": 0
+        },
+        {
+          "tileMatrix": "EPSG:900913:1",
+          "minTileRow": 0,
+          "maxTileRow": 1,
+          "minTileCol": 0,
+          "maxTileCol": 1
+        },
+        {
+          "tileMatrix": "EPSG:900913:2",
+          "minTileRow": 0,
+          "maxTileRow": 3,
+          "minTileCol": 0,
+          "maxTileCol": 3
+        },
+        {
+          "tileMatrix": "EPSG:900913:3",
+          "minTileRow": 0,
+          "maxTileRow": 7,
+          "minTileCol": 0,
+          "maxTileCol": 7
+        },
+        {
+          "tileMatrix": "EPSG:900913:4",
+          "minTileRow": 0,
+          "maxTileRow": 15,
+          "minTileCol": 0,
+          "maxTileCol": 15
+        },
+        {
+          "tileMatrix": "EPSG:900913:5",
+          "minTileRow": 1,
+          "maxTileRow": 31,
+          "minTileCol": 0,
+          "maxTileCol": 31
+        },
+        {
+          "tileMatrix": "EPSG:900913:6",
+          "minTileRow": 2,
+          "maxTileRow": 63,
+          "minTileCol": 0,
+          "maxTileCol": 63
+        },
+        {
+          "tileMatrix": "EPSG:900913:7",
+          "minTileRow": 5,
+          "maxTileRow": 127,
+          "minTileCol": 0,
+          "maxTileCol": 127
+        },
+        {
+          "tileMatrix": "EPSG:900913:8",
+          "minTileRow": 10,
+          "maxTileRow": 255,
+          "minTileCol": 0,
+          "maxTileCol": 255
+        },
+        {
+          "tileMatrix": "EPSG:900913:9",
+          "minTileRow": 20,
+          "maxTileRow": 511,
+          "minTileCol": 0,
+          "maxTileCol": 511
+        },
+        {
+          "tileMatrix": "EPSG:900913:10",
+          "minTileRow": 41,
+          "maxTileRow": 1023,
+          "minTileCol": 0,
+          "maxTileCol": 1023
+        },
+        {
+          "tileMatrix": "EPSG:900913:11",
+          "minTileRow": 83,
+          "maxTileRow": 2047,
+          "minTileCol": 0,
+          "maxTileCol": 2047
+        },
+        {
+          "tileMatrix": "EPSG:900913:12",
+          "minTileRow": 167,
+          "maxTileRow": 4095,
+          "minTileCol": 0,
+          "maxTileCol": 4095
+        },
+        {
+          "tileMatrix": "EPSG:900913:13",
+          "minTileRow": 335,
+          "maxTileRow": 8191,
+          "minTileCol": 0,
+          "maxTileCol": 8191
+        },
+        {
+          "tileMatrix": "EPSG:900913:14",
+          "minTileRow": 671,
+          "maxTileRow": 16383,
+          "minTileCol": 0,
+          "maxTileCol": 16383
+        },
+        {
+          "tileMatrix": "EPSG:900913:15",
+          "minTileRow": 1343,
+          "maxTileRow": 32767,
+          "minTileCol": 0,
+          "maxTileCol": 32767
+        },
+        {
+          "tileMatrix": "EPSG:900913:16",
+          "minTileRow": 2687,
+          "maxTileRow": 65535,
+          "minTileCol": 0,
+          "maxTileCol": 65535
+        },
+        {
+          "tileMatrix": "EPSG:900913:17",
+          "minTileRow": 5374,
+          "maxTileRow": 131071,
+          "minTileCol": 0,
+          "maxTileCol": 131071
+        },
+        {
+          "tileMatrix": "EPSG:900913:18",
+          "minTileRow": 10748,
+          "maxTileRow": 262143,
+          "minTileCol": 0,
+          "maxTileCol": 262143
+        },
+        {
+          "tileMatrix": "EPSG:900913:19",
+          "minTileRow": 21496,
+          "maxTileRow": 524287,
+          "minTileCol": 0,
+          "maxTileCol": 524287
+        },
+        {
+          "tileMatrix": "EPSG:900913:20",
+          "minTileRow": 42992,
+          "maxTileRow": 1048575,
+          "minTileCol": 0,
+          "maxTileCol": 1048575
+        },
+        {
+          "tileMatrix": "EPSG:900913:21",
+          "minTileRow": 85985,
+          "maxTileRow": 2097151,
+          "minTileCol": 0,
+          "maxTileCol": 2097151
+        },
+        {
+          "tileMatrix": "EPSG:900913:22",
+          "minTileRow": 171971,
+          "maxTileRow": 4194303,
+          "minTileCol": 0,
+          "maxTileCol": 4194303
+        },
+        {
+          "tileMatrix": "EPSG:900913:23",
+          "minTileRow": 343943,
+          "maxTileRow": 8388607,
+          "minTileCol": 0,
+          "maxTileCol": 8388607
+        },
+        {
+          "tileMatrix": "EPSG:900913:24",
+          "minTileRow": 687886,
+          "maxTileRow": 16777215,
+          "minTileCol": 0,
+          "maxTileCol": 16777215
+        },
+        {
+          "tileMatrix": "EPSG:900913:25",
+          "minTileRow": 1375772,
+          "maxTileRow": 33554431,
+          "minTileCol": 0,
+          "maxTileCol": 33554431
+        },
+        {
+          "tileMatrix": "EPSG:900913:26",
+          "minTileRow": 2751544,
+          "maxTileRow": 67108863,
+          "minTileCol": 0,
+          "maxTileCol": 67108863
+        },
+        {
+          "tileMatrix": "EPSG:900913:27",
+          "minTileRow": 5503088,
+          "maxTileRow": 134217727,
+          "minTileCol": 0,
+          "maxTileCol": 134217727
+        },
+        {
+          "tileMatrix": "EPSG:900913:28",
+          "minTileRow": 11006177,
+          "maxTileRow": 268435455,
+          "minTileCol": 0,
+          "maxTileCol": 268435455
+        },
+        {
+          "tileMatrix": "EPSG:900913:29",
+          "minTileRow": 22012354,
+          "maxTileRow": 536870911,
+          "minTileCol": 0,
+          "maxTileCol": 536870911
+        },
+        {
+          "tileMatrix": "EPSG:900913:30",
+          "minTileRow": 44024709,
+          "maxTileRow": 1073741823,
+          "minTileCol": 0,
+          "maxTileCol": 1073741823
+        }
+      ]
+    }
+  ]
+}

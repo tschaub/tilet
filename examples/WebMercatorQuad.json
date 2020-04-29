@@ -1,0 +1,265 @@
+{
+  "links": [
+    {
+      "href": "./WebMercatorQuad.json",
+      "rel": "self",
+      "type": "application/json",
+      "title": "This document"
+    }
+  ],
+  "title": "This tile matrix set is the most used tile matrix set in the mass market: for example, by Google Maps, Microsoft Bing Maps and Open Street Map tiles. Nevertheless, it has been long criticized because it is a based on a spherical Mercator instead of an ellipsoid. The use of WebMercatorQuad should be limited to visualization. Any additional use (including distance measurements, routing etc.) needs to use the Mercator spherical expressions to transform the coordinate to an appropriate CRS first. (from D.1 http://docs.opengeospatial.org/is/17-083r2/17-083r2.html)",
+  "identifier": "WebMercatorQuad",
+  "supportedCRS": "http://www.opengis.net/def/crs/EPSG/0/3857",
+  "tileMatrix": [
+    {
+      "identifier": "0",
+      "resolution": 156543.0339280410,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 1,
+      "matrixHeight": 1
+    },
+    {
+      "identifier": "1",
+      "resolution": 78271.51696402048,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 2,
+      "matrixHeight": 2
+    },
+    {
+      "identifier": "2",
+      "resolution": 39135.75848201023,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 4,
+      "matrixHeight": 4
+    },
+    {
+      "identifier": "3",
+      "resolution": 19567.87924100512,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 8,
+      "matrixHeight": 8
+    },
+    {
+      "identifier": "4",
+      "resolution": 9783.939620502561,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 16,
+      "matrixHeight": 16
+    },
+    {
+      "identifier": "5",
+      "resolution": 4891.969810251280,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 32,
+      "matrixHeight": 32
+    },
+    {
+      "identifier": "6",
+      "resolution": 2445.984905125640,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 64,
+      "matrixHeight": 64
+    },
+    {
+      "identifier": "7",
+      "resolution": 1222.992452562820,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 128,
+      "matrixHeight": 128
+    },
+    {
+      "identifier": "8",
+      "resolution": 611.4962262814100,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 256,
+      "matrixHeight": 256
+    },
+    {
+      "identifier": "9",
+      "resolution": 305.7481131407048,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 512,
+      "matrixHeight": 512
+    },
+    {
+      "identifier": "10",
+      "resolution": 152.8740565703525,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 1024,
+      "matrixHeight": 1024
+    },
+    {
+      "identifier": "11",
+      "resolution": 76.437028285176242,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 2048,
+      "matrixHeight": 2048
+    },
+    {
+      "identifier": "12",
+      "resolution": 38.21851414258813,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 4096,
+      "matrixHeight": 4096
+    },
+    {
+      "identifier": "13",
+      "resolution": 19.10925707129406,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 8192,
+      "matrixHeight": 8192
+    },
+    {
+      "identifier": "14",
+      "resolution": 9.554628535647032,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 16384,
+      "matrixHeight": 16384
+    },
+    {
+      "identifier": "15",
+      "resolution": 4.777314267823516,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 32768,
+      "matrixHeight": 32768
+    },
+    {
+      "identifier": "16",
+      "resolution": 2.388657133911758,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 65536,
+      "matrixHeight": 65536
+    },
+    {
+      "identifier": "17",
+      "resolution": 1.194328566955879,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 131072,
+      "matrixHeight": 131072
+    },
+    {
+      "identifier": "18",
+      "resolution": 0.5971642834779395,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 262144,
+      "matrixHeight": 262144
+    },
+    {
+      "identifier": "19",
+      "resolution": 0.2985821417389700,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 524288,
+      "matrixHeight": 524288
+    },
+    {
+      "identifier": "20",
+      "resolution": 0.1492910708694850,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 1048576,
+      "matrixHeight": 1048576
+    },
+    {
+      "identifier": "21",
+      "resolution": 0.0746455354347424,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 2097152,
+      "matrixHeight": 2097152
+    },
+    {
+      "identifier": "22",
+      "resolution": 0.0373227677173712,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 4194304,
+      "matrixHeight": 4194304
+    },
+    {
+      "identifier": "23",
+      "resolution": 0.0186613838586856,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 8388608,
+      "matrixHeight": 8388608
+    },
+    {
+      "identifier": "24",
+      "resolution": 0.0093306919293428,
+      "left": -2.00375083427892E7,
+      "top": 2.0037508E7,
+      "tileWidth": 256,
+      "tileHeight": 256,
+      "matrixWidth": 16777216,
+      "matrixHeight": 16777216
+    }
+  ]
+}
